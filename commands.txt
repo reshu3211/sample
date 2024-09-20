@@ -1,0 +1,38 @@
+Git  is a tool for version control system used to protect the files from getting damaged.
+GitHub is a platform for creating, updating and  dleting repositories
+
+
+it has 2 types of repositories: local repositories which is for making local changes like in our computers
+			      : remote repositories is for making changes that is present in servers.
+
+commands in GitHub
+
+1.to identify version
+    git --version 
+
+2. to create remote repository cloning
+    git clone(url)
+
+3. to check the status of the file 
+     git status
+ 
+4. change the directory
+   git cd file
+
+5.to add file
+  git add .
+
+6. to save a file 
+   git commit -m"message"
+
+7. to set configuration of email id
+  git config --global user.email "you@example.com"
+
+8. to set configuration of username 
+     git config --global user.name "Your Name"
+
+9.Uploads all local branch commits to GitHub
+        git pull
+
+10. Combines remote tracking branches into current local branch
+          git push
